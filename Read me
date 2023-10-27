@@ -1,0 +1,11 @@
+Open anaconda power shell on your windows machine.
+Create virtual environment using the command below:
+cd '.\NLP Deploy YT\' #Change directory until you reach the project directory
+conda env list #to see the virtual environments existing in you conda
+conda create -n zelai python=3.9 #To create a new virtual environment named zelai with python 3.9
+pip install --upgrade pip # to upgrade pip if some errors show up with it
+pip install flask
+Incase of any errors with other libraries use pip install the_lib_name
+
+Other commands
+conda remove --name zelai --all #incase you want to delete a virtual environment 
